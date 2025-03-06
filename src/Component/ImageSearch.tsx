@@ -1,6 +1,6 @@
 // ImageSearch.tsx
 import axios from "axios";
-import React, { useState, FormEvent } from "react";
+import { useState, FormEvent } from "react";
 
 interface Image {
   id: string;
@@ -19,7 +19,7 @@ function ImageSearch() {
   const [page, setPage] = useState<number>(1);
   const [hasMore, setHasMore] = useState<boolean>(false);
 
-  const API_KEY = "OVjoIpFIJdaJXYsrcSMxY7PufbfARGj4PzOCCyk5CDo";
+  const API_KEY = "uBU7duVZGD4ZcU-cC3-FK00473AuyHidAeWDasTTlWA";
 
   const searchImages = async (e: FormEvent) => {
     e.preventDefault();
